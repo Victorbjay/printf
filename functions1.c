@@ -31,14 +31,3 @@ void print_binary(va_list args)
 	}
 }
 
-/**
- * _putchar - Write a character to stdout.
- * @c: The character to write.
- *
- * Return: On success, the num of characters written. On error, -1 is returned.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
