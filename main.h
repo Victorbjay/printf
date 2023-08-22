@@ -8,6 +8,7 @@
 int _write_char(char c);
 int _write_string(char *str);
 int _printf(const char *format, ...);
+int _print_percent(void);
 
 #endif /* MAIN_H */
 
